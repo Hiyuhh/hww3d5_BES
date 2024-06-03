@@ -3,7 +3,6 @@ from unittest.mock import patch
 from faker import Faker
 from app import create_app
 
-
 fake = Faker()
 
 class TestTokenEndpoint(unittest.TestCase):

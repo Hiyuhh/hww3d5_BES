@@ -49,7 +49,7 @@ def blueprint_config(app):
     app.register_blueprint(customer_blueprint, url_prefix='/customers')
     app.register_blueprint(product_blueprint, url_prefix='/products')
     app.register_blueprint(order_blueprint, url_prefix='/orders')
-    app.register_blueprint(token_blueprint, url_prefix='/login')
+    app.register_blueprint(token_blueprint, url_prefix='/token')
     app.register_blueprint(cart_blueprint, url_prefix='/cart')
     app.register_blueprint(swaggerui_blueprint, url_prefix=SWAGGER_URL)
 
